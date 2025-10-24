@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();  // Loads .env into process.env
+
 import { pool } from './database.js';
 
 async function resetDB() {
