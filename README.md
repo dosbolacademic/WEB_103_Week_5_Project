@@ -54,6 +54,8 @@ GIF created with ...  GIF tool here
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
+DOsbol Aliev
+
 ## License
 
 Copyright [2025] [Dosbol Aliev]
