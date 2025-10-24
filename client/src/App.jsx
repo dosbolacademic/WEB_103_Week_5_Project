@@ -39,3 +39,17 @@ const App = () => {
 }
 
 export default App
+
+
+// In App.js
+import { Routes, Route } from 'react-router-dom';
+import ItemsList from './pages/ItemsList';
+// ... other imports
+
+<Routes>
+  <Route path="/" element={<ItemsList />} />
+  <Route path="/create" element={<CreateItem />} />
+  <Route path="/items" element={<ItemsList />} />
+  <Route path="/item/:id" element={<ItemDetail />} />
+  <Route path="/edit/:id" element={<EditItem />} />
+</Routes>
