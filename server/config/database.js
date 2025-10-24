@@ -12,3 +12,6 @@ const config = {
 };
 
 export const pool = new pg.Pool(config);
+
+
+
